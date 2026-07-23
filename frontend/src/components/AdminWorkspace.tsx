@@ -43,9 +43,9 @@ export function AdminWorkspace() {
   // Load Admin Data
   const loadAdminState = async () => {
     try {
-      const tRes = await fetch("/api/ticket");
-      const kRes = await fetch("/api/knowledge");
-      const aRes = await fetch("/api/analytics");
+      const tRes = await fetch("https://ai-customer-support-assistant-q4br.onrender.com/api/ticket");
+      const kRes = await fetch("https://ai-customer-support-assistant-q4br.onrender.com/api/knowledge");
+      const aRes = await fetch("https://ai-customer-support-assistant-q4br.onrender.com/api/analytics");
       
       if (tRes.ok) setTickets(await tRes.json());
       if (kRes.ok) setArticles(await kRes.json());
@@ -67,7 +67,7 @@ export function AdminWorkspace() {
     e.preventDefault();
     setAuthError("");
     try {
-      const res = await fetch("/api/login", {
+      const res = await fetch("https://ai-customer-support-assistant-q4br.onrender.com/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: adminEmail, password: adminPassword })
@@ -84,7 +84,7 @@ export function AdminWorkspace() {
   };
 
   const handleAdminLogout = async () => {
-    await fetch("/api/logout", { method: "POST" });
+    await fetch("https://ai-customer-support-assistant-q4br.onrender.com/api/logout", { method: "POST" });
     setIsAdminLoggedIn(false);
     setAdminEmail("");
     setAdminPassword("");
@@ -150,7 +150,7 @@ export function AdminWorkspace() {
     setIsCreatingArticle(true);
     try {
       const tagsArray = newTags.split(",").map(t => t.trim()).filter(Boolean);
-      const res = await fetch("/api/knowledge", {
+      const res = await fetch("https://ai-customer-support-assistant-q4br.onrender.com/api/knowledge", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

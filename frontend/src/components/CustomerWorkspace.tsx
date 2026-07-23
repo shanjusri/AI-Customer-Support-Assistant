@@ -487,7 +487,7 @@ export function CustomerWorkspace({
     }
 
     try {
-      const response = await fetch("/api/login", {
+      const response = await fetch("https://ai-customer-support-assistant-q4br.onrender.com/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: email.trim(), password: password.trim() })
@@ -544,7 +544,7 @@ export function CustomerWorkspace({
     }
 
     try {
-      const response = await fetch("/api/register", {
+      const response = await fetch("https://ai-customer-support-assistant-q4br.onrender.com/api/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -572,7 +572,7 @@ export function CustomerWorkspace({
 
   const handleLogout = async () => {
     try {
-      await fetch("/api/logout", { method: "POST" });
+      await fetch("https://ai-customer-support-assistant-q4br.onrender.com/api/logout", { method: "POST" });
     } catch (e) {
       console.error("Logout request failed:", e);
     }
@@ -727,7 +727,7 @@ export function CustomerWorkspace({
     setAttachedImage(null);
 
     try {
-      const response = await fetch("/api/chat", {
+      const response = await fetch("https://ai-customer-support-assistant-q4br.onrender.com/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
