@@ -1,0 +1,8 @@
+{
+  "name": "Remix: AI Customer Support Assistant - FastAPI v2",
+  "description": "An enterprise-grade customer support workspace with real-time AI assistance, dynamic ticket classification, sentiment analysis, multi-source RAG knowledge retrieval, human escalation gates, and automated performance analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,1417 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "email": "admin@company.com",
+      "name": "Sarah Jenkins (Lead Agent)",
+      "role": "admin"
+    },
+    {
+      "id": "u-cust1",
+      "email": "john.doe@gmail.com",
+      "name": "John Doe",
+      "role": "customer"
+    },
+    {
+      "id": "u-cust2",
+      "email": "alice.smith@example.com",
+      "name": "Alice Smith",
+      "role": "customer"
+    },
+    {
+      "name": "shanju",
+      "email": "shanjusri899@gmail.com",
+      "password": "chinni.27",
+      "role": "customer",
+      "id": "u-1784807207715"
+    },
+    {
+      "name": "shanju",
+      "email": "_shanju$23@gmail.com",
+      "password": "chinni",
+      "role": "customer",
+      "id": "u-1784807683794"
+    },
+    {
+      "name": "Test",
+      "email": "abc@gmail.com",
+      "password": "Test@123",
+      "role": "customer",
+      "id": "u-1784808300349"
+    },
+    {
+      "name": "Test",
+      "email": "abcd@gmail.com",
+      "password": "123456",
+      "role": "customer",
+      "id": "u-1784808564168"
+    },
+    {
+      "name": "dada",
+      "email": "dada@gmail.com",
+      "password": "dads",
+      "role": "customer",
+      "id": "u-1784808718830"
+    },
+    {
+      "name": "dadap",
+      "email": "dadap@gmail.com",
+      "password": "dadsp",
+      "role": "customer",
+      "id": "u-1784810380904"
+    },
+    {
+      "name": "Test User",
+      "email": "testuser999@example.com",
+      "password": "mypassword123",
+      "role": "customer",
+      "id": "u-1784811496510"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t-1033",
+      "customerId": "u-anonymous",
+      "customerName": "Anonymous Customer",
+      "customerEmail": "anonymous@example.com",
+      "title": "Support Query",
+      "category": "Billing",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2026-07-23T13:23:21.228564Z",
+      "updatedAt": "2026-07-23T13:23:21.273186Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784812999646-c",
+          "role": "customer",
+          "content": "How do I get a refund?",
+          "timestamp": "2026-07-23T13:23:19.646Z",
+          "sentiment": "neutral",
+          "intent": "Refund",
+          "category": "Billing",
+          "priority": "high",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784813001273",
+          "role": "assistant",
+          "content": "### Refund Process\n\n**Short Summary**\nYou can request a refund for software subscriptions or unused physical products within 30 days of purchase by contacting customer support or filing a billing dispute through your account dashboard.\n\n**Step-by-Step Instructions**\n1. Determine if your request falls within the **30-day money-back guarantee** window.\n2. Log in to your account dashboard.\n3. Select the option to **file a billing dispute** or **contact customer support** to submit your request.\n4. Once your request is approved, the refund will be processed immediately.\n\n**Important Notes**\n* Refunds may take **5 to 7 business days** to appear on your bank or card statement, depending on your financial institution.\n* Subscriptions cancelled mid-cycle are **not eligible for partial refunds**, but your service will remain active until the end of the current billing cycle.\n\n**Simple Workflow**\n[Start] --> [Request Refund via Dashboard/Support] --> [Approval Process] --> [Processing (Immediate)] --> [Bank Settlement (5-7 days)] --> [End]\n\nLet me know if you need any further assistance.",
+          "timestamp": "2026-07-23T13:23:21.273144Z"
+        }
+      ],
+      "assignee": null,
+      "satisfactionRating": null
+    },
+    {
+      "id": "t-1032",
+      "customerId": "u-anonymous",
+      "customerName": "Anonymous Customer",
+      "customerEmail": "anonymous@example.com",
+      "title": "Support Query",
+      "category": "Billing",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2026-07-23T13:23:16.461099Z",
+      "updatedAt": "2026-07-23T13:23:16.508650Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784812994368-c",
+          "role": "customer",
+          "content": "How do I get a refund?",
+          "timestamp": "2026-07-23T13:23:14.368Z",
+          "sentiment": "neutral",
+          "intent": "Refund",
+          "category": "Billing",
+          "priority": "high",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784812996508",
+          "role": "assistant",
+          "content": "### Refund Process\n\n**Short Summary**\nYou can request a refund for software subscriptions or unused physical products within 30 days of purchase by contacting customer support or filing a billing dispute through your account dashboard.\n\n**Step-by-Step Instructions**\n1. Determine if your request falls within the **30-day money-back guarantee** window.\n2. Log in to your account dashboard to file a **billing dispute**, or contact our customer support team directly.\n3. Wait for the approval of your refund request.\n4. Once approved, allow **5 to 7 business days** for the funds to reflect on your bank or card statement.\n\n**Important Notes**\n* Refunds are eligible for software subscriptions and unused physical products only.\n* If you cancel a subscription mid-cycle, you are **not eligible for a partial refund**; however, your access will continue until the end of the current billing cycle.\n* Processing times depend on your specific financial institution.\n\n**Simple Workflow**\n\n\nLet me know if you need any further assistance.",
+          "timestamp": "2026-07-23T13:23:16.508605Z"
+        }
+      ],
+      "assignee": null,
+      "satisfactionRating": null
+    },
+    {
+      "id": "t-1031",
+      "customerId": "u-1784810380904",
+      "customerName": "dadap",
+      "customerEmail": "dadap@gmail.com",
+      "title": "General Support Query",
+      "category": "General Inquiry",
+      "priority": "medium",
+      "status": "escalated",
+      "createdAt": "2026-07-23T13:14:29.829026Z",
+      "updatedAt": "2026-07-23T13:14:29.875623Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784812469649-c",
+          "role": "customer",
+          "content": "How long does a refund take?",
+          "timestamp": "2026-07-23T13:14:29.649Z",
+          "sentiment": "neutral",
+          "intent": "General Question",
+          "category": "General Inquiry",
+          "priority": "medium",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784812469875",
+          "role": "assistant",
+          "content": "I apologize, but I couldn't find specific instructions for your request in our official knowledge base. I have flagged this for our support team, and a human coordinator will reach out to assist you.",
+          "timestamp": "2026-07-23T13:14:29.875579Z"
+        }
+      ],
+      "assignee": null,
+      "satisfactionRating": null
+    },
+    {
+      "id": "t-1030",
+      "customerId": "u-1784810380904",
+      "customerName": "dadap",
+      "customerEmail": "dadap@gmail.com",
+      "title": "General Support Query",
+      "category": "General Inquiry",
+      "priority": "medium",
+      "status": "escalated",
+      "createdAt": "2026-07-23T13:14:08.320652Z",
+      "updatedAt": "2026-07-23T13:14:08.371801Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784812448128-c",
+          "role": "customer",
+          "content": "I want to cancel my premium subscription",
+          "timestamp": "2026-07-23T13:14:08.128Z",
+          "sentiment": "neutral",
+          "intent": "General Question",
+          "category": "General Inquiry",
+          "priority": "medium",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784812448371",
+          "role": "assistant",
+          "content": "I apologize, but I couldn't find specific instructions for your request in our official knowledge base. I have flagged this for our support team, and a human coordinator will reach out to assist you.",
+          "timestamp": "2026-07-23T13:14:08.371761Z"
+        }
+      ],
+      "assignee": null,
+      "satisfactionRating": null
+    },
+    {
+      "id": "t-1029",
+      "customerId": "u-anonymous",
+      "customerName": "Anonymous Customer",
+      "customerEmail": "anonymous@example.com",
+      "title": "General Support Query",
+      "category": "General Inquiry",
+      "priority": "medium",
+      "status": "escalated",
+      "createdAt": "2026-07-23T13:09:16.714491Z",
+      "updatedAt": "2026-07-23T13:09:16.758448Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784812156539-c",
+          "role": "customer",
+          "content": "Hello! What is your refund policy?",
+          "timestamp": "2026-07-23T13:09:16.539Z",
+          "sentiment": "neutral",
+          "intent": "General Question",
+          "category": "General Inquiry",
+          "priority": "medium",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784812156758",
+          "role": "assistant",
+          "content": "I apologize, but I couldn't find specific instructions for your request in our official knowledge base. I have flagged this for our support team, and a human coordinator will reach out to assist you.",
+          "timestamp": "2026-07-23T13:09:16.758409Z"
+        }
+      ],
+      "assignee": null,
+      "satisfactionRating": null
+    },
+    {
+      "id": "t-1028",
+      "customerId": "u-1784807207715",
+      "customerName": "shanju",
+      "customerEmail": "shanjusri899@gmail.com",
+      "title": "Inquiry regarding refund processing timeline",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-23T12:55:06.024Z",
+      "updatedAt": "2026-07-23T12:55:06.024Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784811304688-c",
+          "role": "customer",
+          "content": "How long does a refund take?",
+          "timestamp": "2026-07-23T12:55:04.688Z",
+          "sentiment": "neutral",
+          "intent": "Refund",
+          "category": "Billing",
+          "priority": "medium",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784811306024",
+          "role": "assistant",
+          "content": "### Refund Processing Information\n\na) Short Summary\nOnce a refund request is approved, the funds are processed immediately; however, the time it takes for the credit to appear depends on your financial institution.\n\nb) Step-by-Step Instructions\n1. Contact customer support or file a billing dispute through your account dashboard.\n2. Wait for the refund request to be reviewed and approved.\n3. Allow 5 to 7 business days for the transaction to appear on your bank or card statement.\n\nc) Important Notes\n* We offer a **30-day money-back guarantee** on all software subscriptions and unused physical products.\n* Subscriptions cancelled mid-cycle are **not eligible for partial refunds**, but your service will remain active until the end of the current billing cycle.\n\nd) Simple Workflow\n```text\n[Request Refund] \n       |\n[Approval Process] \n       |\n[Immediate Processing] \n       |\n[5-7 Business Days for Statement Credit]\n```\n\ne) Helpful Closing Sentence\nFeel free to ask if you have any other questions.",
+          "timestamp": "2026-07-23T12:55:06.024Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1027",
+      "customerId": "u-1784807207715",
+      "customerName": "shanju",
+      "customerEmail": "shanjusri899@gmail.com",
+      "title": "Subscription payment failure process inquiry",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-23T12:54:44.812Z",
+      "updatedAt": "2026-07-23T12:54:44.813Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784811283847-c",
+          "role": "customer",
+          "content": "What happens if a subscription payment fails?",
+          "timestamp": "2026-07-23T12:54:43.847Z",
+          "sentiment": "neutral",
+          "intent": "Billing",
+          "category": "Billing",
+          "priority": "medium",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784811284813",
+          "role": "assistant",
+          "content": "### Subscription Payment Failure Information\n\nIf your subscription payment fails, our automatic system will attempt to retry the charge after 3, 7, and 14 days. If the payment fails on the final attempt, your subscription will be paused automatically.\n\nFeel free to ask if you have any other questions.",
+          "timestamp": "2026-07-23T12:54:44.813Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1026",
+      "customerId": "u-1784810380904",
+      "customerName": "dadap",
+      "customerEmail": "dadap@gmail.com",
+      "title": "Premium Subscription Cancellation Request",
+      "category": "Account",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2026-07-23T12:42:18.072Z",
+      "updatedAt": "2026-07-23T12:42:18.073Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784810533508-c",
+          "role": "customer",
+          "content": "I want to cancel my premium subscription",
+          "timestamp": "2026-07-23T12:42:13.508Z",
+          "sentiment": "neutral",
+          "intent": "Cancellation",
+          "category": "Account",
+          "priority": "high",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784810538073",
+          "role": "assistant",
+          "content": "### How to Cancel Your Premium Subscription\n\nYou can cancel your Premium subscription at any time by accessing your account portal settings.\n\n**Step-by-Step Instructions**\n1. Log into your account portal.\n2. Navigate to **Settings > Billing**.\n3. Click **'Cancel Subscription'**.\n4. Follow the prompts until you receive a cancellation confirmation email.\n\n**Important Notes**\n* Cancellation halts automatic renewal.\n* Your Premium access continues until your current billing term expires.\n* There are no cancellation fees.\n* If you downgrade, your account defaults back to the Free plan, and your saved workspaces will be locked to read-only mode.\n\n**Cancellation Workflow**\n```text\n[Log into Account Portal]\n          |\n          v\n  [Settings > Billing]\n          |\n          v\n[Click 'Cancel Subscription']\n          |\n          v\n   [Follow Prompts]\n          |\n          v\n[Receive Confirmation Email]\n```\n\nFeel free to ask if you have any other questions.",
+          "timestamp": "2026-07-23T12:42:18.073Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1025",
+      "customerId": "u-1784810380904",
+      "customerName": "dadap",
+      "customerEmail": "dadap@gmail.com",
+      "title": "Refund processing time inquiry",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-23T12:39:59.507Z",
+      "updatedAt": "2026-07-23T12:41:38.879Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784810397861-c",
+          "role": "customer",
+          "content": "How long does a refund take?",
+          "timestamp": "2026-07-23T12:39:57.861Z",
+          "sentiment": "neutral",
+          "intent": "Refund",
+          "category": "Billing",
+          "priority": "medium",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784810399508",
+          "role": "assistant",
+          "content": "### Refund Processing Times\n\nOnce a refund is approved, it is processed immediately by our team. Please note that it can take 5 to 7 business days for the funds to appear on your bank or card statement, depending on your financial institution.\n\n#### Step-by-Step Instructions\n1. Contact customer support or file a billing dispute through your account dashboard to initiate your request.\n2. Await the approval of your refund request.\n3. Once approved, the refund is processed by our system.\n4. Allow 5 to 7 business days for the transaction to reflect on your bank or card statement.\n\n#### Important Notes\n* We offer a 30-day money-back guarantee on all software subscriptions and unused physical products.\n* Subscriptions cancelled mid-cycle are not eligible for partial refunds; however, the service will remain active until the end of the current billing cycle.\n\n#### Simple Workflow\n```text\n[Initiate Request] \n       |\n[Approval Process]\n       |\n[Immediate Processing]\n       |\n[Wait 5-7 Business Days]\n       |\n[Funds Appear on Statement]\n```\n\nFeel free to ask if you have any other questions.",
+          "timestamp": "2026-07-23T12:39:59.508Z"
+        },
+        {
+          "id": "m-1784810418859",
+          "role": "customer",
+          "content": "hi",
+          "timestamp": "2026-07-23T12:40:18.859Z",
+          "sentiment": "positive",
+          "intent": "Greeting",
+          "category": "General Inquiry",
+          "priority": "low",
+          "conversationalType": "greeting"
+        },
+        {
+          "id": "m-1784810418860",
+          "role": "assistant",
+          "content": "Hello! 👋 Welcome to SupportBot. \nHow can I assist you today? \nI can help with billing, refunds, subscriptions, orders and technical support.",
+          "timestamp": "2026-07-23T12:40:18.860Z"
+        },
+        {
+          "id": "m-1784810498878",
+          "role": "customer",
+          "content": "how to do repacement for my dress",
+          "timestamp": "2026-07-23T12:41:38.878Z",
+          "sentiment": "neutral",
+          "intent": "Order Status",
+          "category": "Orders",
+          "priority": "medium",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784810498879",
+          "role": "assistant",
+          "content": "I am sorry to hear you are having trouble with your dress.\n\nBased on our current information, we do not have a specific procedure listed for replacements. \n\nLet me know if you need any further assistance.",
+          "timestamp": "2026-07-23T12:41:38.879Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1024",
+      "customerId": "u-1784808718830",
+      "customerName": "dada",
+      "customerEmail": "dada@gmail.com",
+      "title": "Google Calendar sync error CAL-403",
+      "category": "Technical Support",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-23T12:14:59.065Z",
+      "updatedAt": "2026-07-23T12:14:59.065Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784808898154-c",
+          "role": "customer",
+          "content": "I am getting a Google Calendar sync error CAL-403",
+          "timestamp": "2026-07-23T12:14:58.154Z",
+          "sentiment": "neutral",
+          "intent": "Technical Support",
+          "category": "Technical Support",
+          "priority": "medium",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784808899065",
+          "role": "assistant",
+          "content": "Hello! Thank you for reaching out to us.\n\nI have reviewed our current technical support documentation regarding login errors and browser troubleshooting. Please note that our available knowledge base does not contain information regarding specific Google Calendar sync errors, including code CAL-403. \n\nFeel free to ask if you have any other questions.",
+          "timestamp": "2026-07-23T12:14:59.065Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1023",
+      "customerId": "u-1784808718830",
+      "customerName": "dada",
+      "customerEmail": "dada@gmail.com",
+      "title": "Inquiry regarding refund processing time",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-23T12:14:45.186Z",
+      "updatedAt": "2026-07-23T12:14:45.187Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784808883867-c",
+          "role": "customer",
+          "content": "How long does a refund take?",
+          "timestamp": "2026-07-23T12:14:43.867Z",
+          "sentiment": "neutral",
+          "intent": "Refund",
+          "category": "Billing",
+          "priority": "medium",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784808885187",
+          "role": "assistant",
+          "content": "### Refund Processing Times\n\nOnce a refund is approved, it is processed immediately by our team. However, it can take 5 to 7 business days for the funds to appear on your bank or card statement, depending on your financial institution.\n\n**Step-by-Step Instructions**\n1. Contact customer support or file a billing dispute through your account dashboard.\n2. Await approval of your refund request.\n3. Once approved, the refund is processed and issued.\n\n**Important Notes**\n* Our policy offers a **30-day money-back guarantee** on all software subscriptions and unused physical products.\n* Subscriptions cancelled mid-cycle are **not eligible for partial refunds** and will remain active until the end of the current billing cycle.\n\n**Refund Workflow**\n```text\n[Request Refund] \n      |\n      v\n[Approval Process] \n      |\n      v\n[Refund Processed Immediately]\n      |\n      v\n[5-7 Business Days for Bank/Card Posting]\n```\n\nFeel free to ask if you have any other questions.",
+          "timestamp": "2026-07-23T12:14:45.187Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1022",
+      "customerId": "u-1784807207715",
+      "customerName": "shanju",
+      "customerEmail": "shanjusri899@gmail.com",
+      "title": "Inquiry regarding refund processing time",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-23T11:47:11.004Z",
+      "updatedAt": "2026-07-23T11:47:11.005Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784807229544-c",
+          "role": "customer",
+          "content": "How long does a refund take?",
+          "timestamp": "2026-07-23T11:47:09.544Z",
+          "sentiment": "neutral",
+          "intent": "Refund",
+          "category": "Billing",
+          "priority": "medium",
+          "conversationalType": "none"
+        },
+        {
+          "id": "m-1784807231005",
+          "role": "assistant",
+          "content": "### Refund Processing Information\n\nOnce a refund is approved, it is processed immediately by our team. However, it can take 5 to 7 business days to appear on your bank or card statement, depending on your financial institution.\n\n**Step-by-Step Instructions**\n1. Contact customer support or file a billing dispute through your account dashboard to initiate the request.\n2. Wait for the refund to be processed once approved.\n3. Allow 5 to 7 business days for the funds to reflect on your bank or card statement.\n\n**Important Notes**\n* Our policy includes a **30-day money-back guarantee** on all software subscriptions and unused physical products.\n* Subscriptions cancelled mid-cycle are **not eligible for partial refunds**, though they will remain active until the end of the current billing cycle.\n\n**Refund Workflow**\n```text\n[Initiate Refund Request]\n           |\n           v\n   [Approval Process]\n           |\n           v\n [Immediate Processing]\n           |\n           v\n[5-7 Business Day Wait]\n           |\n           v\n[Funds Appear on Statement]\n```\n\nFeel free to ask if you have any other questions.",
+          "timestamp": "2026-07-23T11:47:11.005Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1021",
+      "customerId": "u-anonymous",
+      "customerName": "Angry Customer",
+      "customerEmail": "angry@example.com",
+      "title": "Inquiry regarding capital of France",
+      "category": "General Inquiry",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-07-18T13:51:15.440Z",
+      "updatedAt": "2026-07-18T13:51:16.767Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784382675440-c",
+          "role": "customer",
+          "content": "What is the capital of France?",
+          "timestamp": "2026-07-18T13:51:15.440Z",
+          "sentiment": "neutral",
+          "intent": "General Question"
+        },
+        {
+          "id": "m-1784382676767",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T13:51:16.767Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1020",
+      "customerId": "u-anonymous",
+      "customerName": "Angry Customer",
+      "customerEmail": "angry@example.com",
+      "title": "Customer inquiry regarding refund process",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-18T13:51:12.088Z",
+      "updatedAt": "2026-07-18T13:51:14.647Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784382672088-c",
+          "role": "customer",
+          "content": "how do i get a refund?",
+          "timestamp": "2026-07-18T13:51:12.088Z",
+          "sentiment": "neutral",
+          "intent": "Refund"
+        },
+        {
+          "id": "m-1784382674647",
+          "role": "assistant",
+          "content": "Hello! Thank you for reaching out to us. I would be more than happy to assist you with your refund inquiry.\n\nAccording to our refund policy, here are the details regarding your request:\n\n*   **Eligibility:** We offer a 30-day money-back guarantee on all software subscriptions and unused physical products. Please note that subscriptions cancelled mid-cycle are not eligible for partial refunds, though your access will remain active until the end of your current billing cycle.\n*   **How to Request:** You may request a refund by contacting our customer support team or by filing a billing dispute through your account dashboard.\n*   **Processing Times:** Once a refund is approved, it is processed immediately. Please allow **5 to 7 business days** for the funds to appear on your bank or card statement, as this timeframe can vary depending on your financial institution.\n\nIf there is anything else I can clarify for you, please let me know. I am here to help!",
+          "timestamp": "2026-07-18T13:51:14.647Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1019",
+      "customerId": "u-anonymous",
+      "customerName": "Angry Customer",
+      "customerEmail": "angry@example.com",
+      "title": "Customer requesting to speak with an agent",
+      "category": "General Inquiry",
+      "priority": "high",
+      "status": "escalated",
+      "createdAt": "2026-07-18T13:51:08.636Z",
+      "updatedAt": "2026-07-18T13:51:11.300Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784382668636-c",
+          "role": "customer",
+          "content": "Can I speak to a real person please?",
+          "timestamp": "2026-07-18T13:51:08.636Z",
+          "sentiment": "neutral",
+          "intent": "General Question"
+        },
+        {
+          "id": "m-1784382671300",
+          "role": "assistant",
+          "content": "Hello. I completely understand your preference to speak with one of our team members directly, and I would be more than happy to facilitate that for you. \n\nYour experience and satisfaction are our top priorities. I am going to escalate your request immediately so that a senior support coordinator can personally review your concerns and assist you further. \n\nI have initiated a support ticket on your behalf to ensure your inquiry is prioritized. A human representative will reach out to you as soon as possible to provide the personalized attention you deserve. \n\nIs there anything specific you would like me to note in your ticket before I hand this over to my human colleagues?",
+          "timestamp": "2026-07-18T13:51:11.300Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1018",
+      "customerId": "u-anonymous",
+      "customerName": "Angry Customer",
+      "customerEmail": "angry@example.com",
+      "title": "Customer report of locked account access",
+      "category": "Account",
+      "priority": "high",
+      "status": "escalated",
+      "createdAt": "2026-07-18T13:51:04.788Z",
+      "updatedAt": "2026-07-18T13:51:07.759Z",
+      "sentiment": "angry",
+      "messages": [
+        {
+          "id": "m-1784382664788-c",
+          "role": "customer",
+          "content": "Your service is complete garbage! I demand to know why my account is locked!",
+          "timestamp": "2026-07-18T13:51:04.788Z",
+          "sentiment": "angry",
+          "intent": "Account Issue"
+        },
+        {
+          "id": "m-1784382667759",
+          "role": "assistant",
+          "content": "Hello. Thank you for reaching out to us. I can certainly hear how frustrated you are, and I sincerely apologize for the stress and inconvenience this experience has caused you. Please know that your experience is very important to us, and I am here to ensure we resolve this for you.\n\nRegarding your account access, I would recommend a few preliminary steps while I prepare your escalation. Please ensure that your Caps Lock is disabled and verify that you are entering the correct registered email address. Additionally, clearing your browser’s cookies and cache or attempting to log in via an incognito window can often resolve unexpected login errors. If you need to reset your password, you may use the \"Forgot Password\" link on the login screen, which will send a secure recovery link to your inbox. Please note that for security purposes, this link will expire in 30 minutes.\n\nBecause I understand how vital it is to regain access to your account promptly, I have gone ahead and escalated your concern to our senior human support team. They will review your account status as a high priority. I have created a support ticket on your behalf, and a human representative will follow up with you directly to investigate why your account is locked and assist you in regaining access.\n\nThank you for your patience while we prioritize this for you.",
+          "timestamp": "2026-07-18T13:51:07.759Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1017",
+      "customerId": "u-shanjusri899gmailcom",
+      "customerName": "shanju",
+      "customerEmail": "shanjusri899@gmail.com",
+      "title": "Inquiry regarding refund process",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "escalated",
+      "createdAt": "2026-07-18T13:45:22.622Z",
+      "updatedAt": "2026-07-18T13:47:28.015Z",
+      "sentiment": "angry",
+      "messages": [
+        {
+          "id": "m-1784382322622-c",
+          "role": "customer",
+          "content": "how do i get my refund?",
+          "timestamp": "2026-07-18T13:45:22.622Z",
+          "sentiment": "neutral",
+          "intent": "Refund"
+        },
+        {
+          "id": "m-1784382325443",
+          "role": "assistant",
+          "content": "Hello! Thank you for reaching out to us. I would be more than happy to assist you with your refund inquiry today.\n\nAccording to our refund policy, here is how you can proceed:\n\n*   **Eligibility:** We offer a 30-day money-back guarantee on all software subscriptions and unused physical products. Please note that subscriptions cancelled mid-cycle are not eligible for partial refunds, though your access will remain active until the end of your current billing cycle.\n*   **How to Request:** You may request a refund by either **contacting customer support** or by **filing a billing dispute through your account dashboard**.\n*   **Processing Time:** Once your refund is approved, it is processed immediately. However, depending on your financial institution, it may take **5 to 7 business days** for the funds to appear on your bank or card statement.\n\nPlease let me know if you have any additional questions or if there is anything else I can assist you with!",
+          "timestamp": "2026-07-18T13:45:25.443Z"
+        },
+        {
+          "id": "m-1784382342098",
+          "role": "customer",
+          "content": "i forgot my password",
+          "timestamp": "2026-07-18T13:45:42.098Z",
+          "sentiment": "neutral",
+          "intent": "Account Issue"
+        },
+        {
+          "id": "m-1784382344473",
+          "role": "assistant",
+          "content": "Hello! I understand how frustrating it can be to lose access to your account, and I would be more than happy to assist you with resetting your password.\n\nPlease follow these steps to regain access:\n\n*   **Initiate Reset:** On the login screen, click the **'Forgot Password'** link.\n*   **Verify Email:** Enter your registered email address to receive a secure recovery link.\n*   **Time Sensitivity:** Please note that for security reasons, this recovery link will **expire in 30 minutes**.\n*   **Troubleshooting:** If you do not see the email in your inbox, please check your **spam or promotions folder**. If you continue to experience issues, you may contact our security support team.\n\nAdditionally, if you encounter persistent login errors, please ensure your **Caps Lock** is off and verify that you are using the correct registered email address. You may also try clearing your browser's cookies and cache or testing the login in incognito mode.\n\nPlease let me know if you need any further assistance!",
+          "timestamp": "2026-07-18T13:45:44.473Z"
+        },
+        {
+          "id": "m-1784382362227",
+          "role": "customer",
+          "content": "where is my order?",
+          "timestamp": "2026-07-18T13:46:02.227Z",
+          "sentiment": "neutral",
+          "intent": "Order Status"
+        },
+        {
+          "id": "m-1784382364947",
+          "role": "assistant",
+          "content": "Hello! I would be more than happy to help you locate your order information.\n\nOnce your order has shipped, we send an email to you containing your **tracking number** and a **carrier link** (such as FedEx, UPS, or DHL) so you can monitor its progress.\n\nRegarding our standard delivery timelines:\n*   **Standard Shipping:** 3 to 5 business days.\n*   **Express Shipping:** 1 to 2 business days.\n\nIf your tracking information indicates that the package has been \"Delivered\" but you are unable to locate it, I recommend the following steps:\n*   Check the surrounding areas of your delivery location.\n*   Inquire with your neighbors to see if it was left with them.\n*   Wait up to 24 hours, as carriers sometimes mark items as delivered prematurely.\n\nIf you have completed these steps and your package is still missing, please file a claim with our support team within 7 days of the delivery timestamp.\n\nPlease let me know if you have any additional questions!",
+          "timestamp": "2026-07-18T13:46:04.947Z"
+        },
+        {
+          "id": "m-1784382379082",
+          "role": "customer",
+          "content": "i want to cancel my subscription",
+          "timestamp": "2026-07-18T13:46:19.082Z",
+          "sentiment": "neutral",
+          "intent": "Cancellation"
+        },
+        {
+          "id": "m-1784382382170",
+          "role": "assistant",
+          "content": "Hello! I would be more than happy to assist you with the process for cancelling your Premium subscription.\n\nYou may cancel your subscription at any time by following these steps:\n\n*   **Access Portal:** Log into your account portal.\n*   **Navigate:** Go to **Settings > Billing**.\n*   **Action:** Click **'Cancel Subscription'**.\n*   **Confirmation:** Follow the remaining prompts until you receive a **cancellation confirmation email**.\n\n**Important details regarding your cancellation:**\n\n*   **Access:** Cancellation halts automatic renewal; however, your Premium access will continue until your current billing term expires.\n*   **Fees:** There are no cancellation fees.\n*   **Downgrade Status:** Should you choose to downgrade, your account will revert to the Free plan, and your saved workspaces will be locked to read-only mode.\n*   **Refunds:** Please note that subscriptions cancelled mid-cycle are not eligible for partial refunds. \n\nIf you have any additional questions or need further assistance, please feel free to ask!",
+          "timestamp": "2026-07-18T13:46:22.170Z"
+        },
+        {
+          "id": "m-1784382412226",
+          "role": "customer",
+          "content": "do you offer student discounts?",
+          "timestamp": "2026-07-18T13:46:52.226Z",
+          "sentiment": "neutral",
+          "intent": "General Question"
+        },
+        {
+          "id": "m-1784382413276",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T13:46:53.276Z"
+        },
+        {
+          "id": "m-1784382446961",
+          "role": "customer",
+          "content": "I'm very angry.I want to speak to a human agent.",
+          "timestamp": "2026-07-18T13:47:26.961Z",
+          "sentiment": "angry",
+          "intent": "Complaint"
+        },
+        {
+          "id": "m-1784382448015",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T13:47:28.015Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1016",
+      "customerId": "u-shanjusri899gmailcom",
+      "customerName": "shanju",
+      "customerEmail": "shanjusri899@gmail.com",
+      "title": "Customer requesting order cancellation",
+      "category": "Orders",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-18T13:13:32.762Z",
+      "updatedAt": "2026-07-18T13:14:27.693Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784380412762-c",
+          "role": "customer",
+          "content": "i want to cancel my order",
+          "timestamp": "2026-07-18T13:13:32.762Z",
+          "sentiment": "neutral",
+          "intent": "Cancellation"
+        },
+        {
+          "id": "m-1784380414749",
+          "role": "assistant",
+          "content": "Hello. Thank you for reaching out to us. I would be more than happy to assist you with your request regarding your order.\n\nTo ensure I provide you with the correct guidance, could you please clarify if you are looking to cancel a **Premium subscription** or a **physical product order**?\n\nIn the meantime, please note the following information based on our current policies:\n\n*   **For Premium Subscriptions:** You may cancel at any time by logging into your account portal, navigating to **Settings > Billing**, and selecting **'Cancel Subscription'**. Please follow the prompts until you receive a confirmation email. Your access will continue until your current billing term expires, and there are no cancellation fees.\n*   **Regarding Refunds:** We offer a 30-day money-back guarantee on all software subscriptions and unused physical products. Please be aware that subscriptions cancelled mid-cycle are not eligible for partial refunds. \n\nIf you would like to request a refund, you may contact customer support or file a billing dispute through your account dashboard. \n\nPlease let me know if you need any further clarification, and I will be delighted to help.",
+          "timestamp": "2026-07-18T13:13:34.749Z"
+        },
+        {
+          "id": "m-1784380444732",
+          "role": "customer",
+          "content": "parcel only",
+          "timestamp": "2026-07-18T13:14:04.732Z",
+          "sentiment": "neutral",
+          "intent": "Order Status"
+        },
+        {
+          "id": "m-1784380445148",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T13:14:05.148Z"
+        },
+        {
+          "id": "m-1784380466420",
+          "role": "customer",
+          "content": " want to cancel my order",
+          "timestamp": "2026-07-18T13:14:26.420Z",
+          "sentiment": "neutral",
+          "intent": "Cancellation"
+        },
+        {
+          "id": "m-1784380467693",
+          "role": "assistant",
+          "content": "Hello. Thank you for clarifying that you are looking to cancel your physical product order.\n\nRegarding your request, please note the following from our policy:\n\n*   **Refund Policy:** We offer a 30-day money-back guarantee on all unused physical products.\n*   **How to Request:** If you would like to request a refund, please contact customer support or file a billing dispute through your account dashboard. \n\nPlease let me know if there is anything else I can assist you with today.",
+          "timestamp": "2026-07-18T13:14:27.693Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1015",
+      "customerId": "u-shanjusri899gmailcom",
+      "customerName": "shanju",
+      "customerEmail": "shanjusri899@gmail.com",
+      "title": "Request to cancel premium subscription",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-18T13:11:01.656Z",
+      "updatedAt": "2026-07-18T13:11:31.635Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784380261656-c",
+          "role": "customer",
+          "content": "I want to cancel my premium subscription",
+          "timestamp": "2026-07-18T13:11:01.656Z",
+          "sentiment": "neutral",
+          "intent": "Cancellation"
+        },
+        {
+          "id": "m-1784380263261",
+          "role": "assistant",
+          "content": "Hello! I would be more than happy to assist you with your request to cancel your Premium subscription.\n\nYou can cancel your subscription at any time by following these steps:\n\n*   **Log into your account portal.**\n*   **Navigate to Settings > Billing.**\n*   **Click 'Cancel Subscription'.**\n*   **Follow the remaining prompts** until you receive a cancellation confirmation email.\n\nPlease keep the following details in mind regarding your account:\n\n*   **Access:** Your cancellation halts automatic renewal, but your Premium access will continue until your current billing term expires.\n*   **Account Status:** Once your current term ends, your account will default back to the Free plan, and any saved workspaces will be locked to read-only mode.\n*   **Fees:** There are no cancellation fees associated with this process.\n\nIf you have any further questions or need additional assistance, please feel free to reach out. We are here to help!",
+          "timestamp": "2026-07-18T13:11:03.261Z"
+        },
+        {
+          "id": "m-1784380289756",
+          "role": "customer",
+          "content": "i want to cancel my order",
+          "timestamp": "2026-07-18T13:11:29.756Z",
+          "sentiment": "neutral",
+          "intent": "Cancellation"
+        },
+        {
+          "id": "m-1784380291635",
+          "role": "assistant",
+          "content": "Hello! I would be pleased to assist you with your request.\n\nIf you are referring to cancelling your **Premium subscription**, please follow these steps:\n\n*   **Log into your account portal.**\n*   Navigate to **Settings > Billing**.\n*   Click **'Cancel Subscription'**.\n*   Follow the prompts until you receive a **cancellation confirmation email**.\n\nPlease note the following details regarding your subscription:\n\n*   **Access:** Your cancellation halts automatic renewal, and your Premium access will continue until your current billing term expires.\n*   **Fees:** There are no cancellation fees. Subscriptions cancelled mid-cycle are not eligible for partial refunds.\n*   **Account Status:** Once your term ends, your account will default back to the Free plan, and your saved workspaces will be locked to read-only mode.\n\nIf you are referring to a physical product order, please note that we offer a 30-day money-back guarantee on unused physical products. To request a refund, please contact customer support or file a billing dispute through your account dashboard. \n\nIf you have any further questions, please do not hesitate to reach out!",
+          "timestamp": "2026-07-18T13:11:31.635Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1014",
+      "customerId": "u-shanjusri899gmailcom",
+      "customerName": "shanju",
+      "customerEmail": "shanjusri899@gmail.com",
+      "title": "Request to cancel an order",
+      "category": "Orders",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-18T13:10:28.015Z",
+      "updatedAt": "2026-07-18T13:12:47.743Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784380228015-c",
+          "role": "customer",
+          "content": "how to cancel my parcel",
+          "timestamp": "2026-07-18T13:10:28.015Z",
+          "sentiment": "neutral",
+          "intent": "Cancellation"
+        },
+        {
+          "id": "m-1784380228441",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T13:10:28.441Z"
+        },
+        {
+          "id": "m-1784380367314",
+          "role": "customer",
+          "content": "hey",
+          "timestamp": "2026-07-18T13:12:47.314Z",
+          "sentiment": "neutral",
+          "intent": "Greeting"
+        },
+        {
+          "id": "m-1784380367743",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T13:12:47.743Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1013",
+      "customerId": "u-anonymous",
+      "customerName": "Test User",
+      "customerEmail": "test@example.com",
+      "title": "General inquiry about the capital of France",
+      "category": "General Inquiry",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-07-18T08:20:30.863Z",
+      "updatedAt": "2026-07-18T08:20:31.234Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784362830863-c",
+          "role": "customer",
+          "content": "What is the capital of France?",
+          "timestamp": "2026-07-18T08:20:30.863Z",
+          "sentiment": "neutral",
+          "intent": "General Question"
+        },
+        {
+          "id": "m-1784362831234",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T08:20:31.234Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1012",
+      "customerId": "u-anonymous",
+      "customerName": "Test User",
+      "customerEmail": "test@example.com",
+      "title": "Inquiry regarding capital of France",
+      "category": "General Inquiry",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-07-18T08:19:22.637Z",
+      "updatedAt": "2026-07-18T08:19:23.791Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784362762637-c",
+          "role": "customer",
+          "content": "What is the capital of France?",
+          "timestamp": "2026-07-18T08:19:22.637Z",
+          "sentiment": "neutral",
+          "intent": "General Question"
+        },
+        {
+          "id": "m-1784362763791",
+          "role": "assistant",
+          "content": "Hello! Thank you for reaching out to us.\n\nWhile I am here to assist you with any questions regarding our company services, including password management, billing, and refund policies, I do not have information regarding general knowledge topics such as the capital of France.\n\nIf you have any questions related to your account or our software services, please feel free to ask—I would be delighted to help!",
+          "timestamp": "2026-07-18T08:19:23.791Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1011",
+      "customerId": "u-anonymous",
+      "customerName": "Test User",
+      "customerEmail": "test@example.com",
+      "title": "General question regarding capital of France",
+      "category": "General Inquiry",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-07-18T08:18:39.979Z",
+      "updatedAt": "2026-07-18T08:18:41.653Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784362719979-c",
+          "role": "customer",
+          "content": "What is the capital of France?",
+          "timestamp": "2026-07-18T08:18:39.979Z",
+          "sentiment": "neutral",
+          "intent": "General Question"
+        },
+        {
+          "id": "m-1784362721653",
+          "role": "assistant",
+          "content": "Hello! Thank you for reaching out to us.\n\nWhile I would love to assist you with all of your questions, my current resources are limited to our company's internal knowledge base, which covers topics such as technical support, billing, and our refund policy. Unfortunately, I do not have information regarding general knowledge questions like the capital of France.\n\nIf you have any questions regarding your account, subscriptions, or our billing processes, please do not hesitate to ask—I would be more than happy to help you with those!",
+          "timestamp": "2026-07-18T08:18:41.653Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1010",
+      "customerId": "u-anonymous",
+      "customerName": "Test User",
+      "customerEmail": "test@example.com",
+      "title": "Inquiry regarding refund process",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-18T08:18:26.424Z",
+      "updatedAt": "2026-07-18T08:18:28.204Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784362706423-c",
+          "role": "customer",
+          "content": "how do i get a refund?",
+          "timestamp": "2026-07-18T08:18:26.423Z",
+          "sentiment": "neutral",
+          "intent": "Refund"
+        },
+        {
+          "id": "m-1784362708204",
+          "role": "assistant",
+          "content": "Hello! I would be more than happy to assist you with your refund inquiry today.\n\nTo request a refund, please follow these steps:\n\n*   **Request Method:** You may either contact our support team directly or file a billing dispute through your **account dashboard**.\n*   **Eligibility:** Our policy offers a 30-day money-back guarantee on all software subscriptions and unused physical products. Please note that subscriptions cancelled mid-cycle are not eligible for partial refunds; however, your access will remain active until the end of your current billing cycle.\n*   **Processing Time:** Once a refund is approved, it is processed immediately. Please allow **5 to 7 business days** for the funds to appear on your bank or card statement, as this timing depends on your financial institution.\n\nIf you have any further questions or need additional assistance with your account, please don't hesitate to ask!",
+          "timestamp": "2026-07-18T08:18:28.204Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1009",
+      "customerId": "u-anonymous",
+      "customerName": "Test User",
+      "customerEmail": "test@example.com",
+      "title": "Inquiry regarding refund process",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-18T08:17:52.887Z",
+      "updatedAt": "2026-07-18T08:17:54.349Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784362672887-c",
+          "role": "customer",
+          "content": "how do i get a refund?",
+          "timestamp": "2026-07-18T08:17:52.887Z",
+          "sentiment": "neutral",
+          "intent": "Refund"
+        },
+        {
+          "id": "m-1784362674349",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T08:17:54.349Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1008",
+      "customerId": "u-anonymous",
+      "customerName": "Test User",
+      "customerEmail": "test@example.com",
+      "title": "Inquiry regarding refund process",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-18T08:16:15.148Z",
+      "updatedAt": "2026-07-18T08:16:16.202Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784362575148-c",
+          "role": "customer",
+          "content": "how do i get a refund?",
+          "timestamp": "2026-07-18T08:16:15.148Z",
+          "sentiment": "neutral",
+          "intent": "Refund"
+        },
+        {
+          "id": "m-1784362576202",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T08:16:16.202Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1007",
+      "customerId": "u-shanjusri899gmailcom",
+      "customerName": "JOHN",
+      "customerEmail": "shanjusri899@gmail.com",
+      "title": "Customer requesting guidance on refund process",
+      "category": "Billing",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-18T08:13:36.351Z",
+      "updatedAt": "2026-07-18T08:15:44.616Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784362416351-c",
+          "role": "customer",
+          "content": "how do i get my refund",
+          "timestamp": "2026-07-18T08:13:36.351Z",
+          "sentiment": "neutral",
+          "intent": "Refund"
+        },
+        {
+          "id": "m-1784362417314",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T08:13:37.314Z"
+        },
+        {
+          "id": "m-1784362542641",
+          "role": "customer",
+          "content": "lol",
+          "timestamp": "2026-07-18T08:15:42.641Z",
+          "sentiment": "neutral",
+          "intent": "Greeting"
+        },
+        {
+          "id": "m-1784362544616",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T08:15:44.616Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1006",
+      "customerId": "u-anonymous",
+      "customerName": "Test User",
+      "customerEmail": "test@example.com",
+      "title": "Inquiry regarding standard support categories",
+      "category": "General Inquiry",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-07-17T18:01:17.076Z",
+      "updatedAt": "2026-07-17T18:01:18.043Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784311277076-c",
+          "role": "customer",
+          "content": "Hello, what is your standard support category?",
+          "timestamp": "2026-07-17T18:01:17.076Z",
+          "sentiment": "neutral",
+          "intent": "General Question"
+        },
+        {
+          "id": "m-1784311278043",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-17T18:01:18.043Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1005",
+      "customerId": "u-shanjusri899gmailcom",
+      "customerName": "Shanju Sri Kothapalli",
+      "customerEmail": "shanjusri899@gmail.com",
+      "title": "General Support Query",
+      "category": "General Inquiry",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-17T17:43:31.168Z",
+      "updatedAt": "2026-07-18T07:47:17.570Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-1784310211168-c",
+          "role": "customer",
+          "content": "how do i get a refund?",
+          "timestamp": "2026-07-17T17:43:31.168Z",
+          "sentiment": "neutral",
+          "intent": "General Question"
+        },
+        {
+          "id": "m-1784310211997",
+          "role": "assistant",
+          "content": "I apologize, I encountered a temporary connection issue. A support coordinator has been alerted to review your request immediately.",
+          "timestamp": "2026-07-17T17:43:31.997Z"
+        },
+        {
+          "id": "m-1784360048546",
+          "role": "customer",
+          "content": "how do i get my refund",
+          "timestamp": "2026-07-18T07:34:08.546Z",
+          "sentiment": "neutral",
+          "intent": "Refund"
+        },
+        {
+          "id": "m-1784360049894",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T07:34:09.894Z"
+        },
+        {
+          "id": "m-1784360179199",
+          "role": "customer",
+          "content": "how do i get my refund",
+          "timestamp": "2026-07-18T07:36:19.199Z",
+          "sentiment": "neutral",
+          "intent": "Refund"
+        },
+        {
+          "id": "m-1784360180448",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T07:36:20.448Z"
+        },
+        {
+          "id": "m-1784360836219",
+          "role": "customer",
+          "content": "how do i get my refund",
+          "timestamp": "2026-07-18T07:47:16.219Z",
+          "sentiment": "neutral",
+          "intent": "Refund"
+        },
+        {
+          "id": "m-1784360837570",
+          "role": "assistant",
+          "content": "I couldn't find that information in the knowledge base.",
+          "timestamp": "2026-07-18T07:47:17.570Z"
+        }
+      ]
+    },
+    {
+      "id": "t-1001",
+      "customerId": "u-cust1",
+      "customerName": "John Doe",
+      "customerEmail": "john.doe@gmail.com",
+      "title": "Double charge on monthly billing invoice",
+      "category": "Billing",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2026-07-16T05:33:56.518Z",
+      "updatedAt": "2026-07-17T05:33:56.518Z",
+      "sentiment": "frustrated",
+      "messages": [
+        {
+          "id": "m-1",
+          "role": "customer",
+          "content": "Hello, I checked my bank statement today and I see two charges of $29.99 for my subscription. I only have one account, and the system should only charge me once. Can you check this and refund the extra transaction?",
+          "timestamp": "2026-07-16T05:33:56.518Z",
+          "sentiment": "frustrated",
+          "intent": "Billing"
+        },
+        {
+          "id": "m-2",
+          "role": "assistant",
+          "content": "Hi John, I understand your frustration. I am looking into your account billing logs. I see that on July 15, there was a duplicate transaction processed due to a temporary gateway retry. Let me flag this to our billing supervisor to issue an immediate credit.",
+          "timestamp": "2026-07-16T06:33:56.518Z"
+        },
+        {
+          "id": "m-3",
+          "role": "customer",
+          "content": "Okay, thank you. How long will the refund take to get back to my Visa card? I need to make sure this gets resolved as quickly as possible.",
+          "timestamp": "2026-07-17T05:33:56.518Z",
+          "sentiment": "neutral",
+          "intent": "Refund"
+        }
+      ],
+      "assignee": "Sarah Jenkins (Lead Agent)"
+    },
+    {
+      "id": "t-1002",
+      "customerId": "u-cust2",
+      "customerName": "Alice Smith",
+      "customerEmail": "alice.smith@example.com",
+      "title": "Unable to sync Google Calendar with dashboard",
+      "category": "Technical Support",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-07-13T13:33:56.518Z",
+      "updatedAt": "2026-07-13T15:33:56.518Z",
+      "sentiment": "neutral",
+      "messages": [
+        {
+          "id": "m-10",
+          "role": "customer",
+          "content": "Hi support team, I upgraded to Premium primarily to sync my schedule, but every time I click 'Sync Google Calendar', the popup closes immediately and shows error code CAL-403. My email is registered.",
+          "timestamp": "2026-07-13T13:33:56.518Z",
+          "sentiment": "neutral",
+          "intent": "Technical Support"
+        },
+        {
+          "id": "m-11",
+          "role": "assistant",
+          "content": "Hello Alice! I'd be happy to help resolve the calendar sync error. The CAL-403 error usually points to Google Workspace OAuth permissions. Could you verify if your admin has allowed external application integrations, or try disconnecting and re-authorizing the account?",
+          "timestamp": "2026-07-13T15:33:56.518Z"
+        }
+      ],
+      "assignee": "Sarah Jenkins (Lead Agent)"
+    },
+    {
+      "id": "t-1003",
+      "customerId": "u-anonymous",
+      "customerName": "Robert Miller",
+      "customerEmail": "robert.miller@yahoo.com",
+      "title": "Urgent: Charged after cancelling my subscription",
+      "category": "Billing",
+      "priority": "urgent",
+      "status": "escalated",
+      "createdAt": "2026-07-17T13:33:56.518Z",
+      "updatedAt": "2026-07-17T13:33:56.518Z",
+      "sentiment": "angry",
+      "messages": [
+        {
+          "id": "m-20",
+          "role": "customer",
+          "content": "This is unacceptable! I cancelled my subscription last month, but I was just charged $199 today! I demand an immediate refund and deletion of my card data. I have already sent a cancel confirmation email earlier, this is illegal!",
+          "timestamp": "2026-07-17T13:33:56.518Z",
+          "sentiment": "angry",
+          "intent": "Refund"
+        }
+      ]
+    },
+    {
+      "id": "t-1004",
+      "customerId": "u-cust1",
+      "customerName": "John Doe",
+      "customerEmail": "john.doe@gmail.com",
+      "title": "Praise for the new layout!",
+      "category": "Feedback",
+      "priority": "low",
+      "status": "resolved",
+      "createdAt": "2026-07-12T17:33:56.518Z",
+      "updatedAt": "2026-07-13T03:33:56.518Z",
+      "sentiment": "positive",
+      "messages": [
+        {
+          "id": "m-30",
+          "role": "customer",
+          "content": "Just wanted to say the new update is fantastic! The UI is extremely clean and pages load at least twice as fast as before. Hats off to the design team!",
+          "timestamp": "2026-07-12T17:33:56.518Z",
+          "sentiment": "positive",
+          "intent": "Feedback"
+        },
+        {
+          "id": "m-31",
+          "role": "assistant",
+          "content": "Wow John, thank you so much for the wonderful feedback! The team put a lot of effort into optimization and redesign. We are thrilled you love the results!",
+          "timestamp": "2026-07-13T03:33:56.518Z"
+        }
+      ],
+      "satisfactionRating": 5
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "kb-1",
+      "title": "Refund Policy and Processing Times",
+      "content": "Our standard refund policy offers a 30-day money-back guarantee on all software subscriptions and unused physical products. To request a refund, please contact customer support or file a billing dispute through your account dashboard. Once approved, refunds are processed immediately but can take 5 to 7 business days to appear on your bank statement or card statement, depending on your financial institution. Subscriptions cancelled mid-cycle are not eligible for partial refunds but will remain active until the end of the current billing cycle.",
+      "category": "Billing",
+      "tags": [
+        "refund",
+        "billing",
+        "money-back",
+        "processing"
+      ],
+      "createdAt": "2026-06-01T00:00:00.000Z"
+    },
+    {
+      "id": "kb-2",
+      "title": "How to Cancel Your Premium Subscription",
+      "content": "You can cancel your Premium subscription at any time. Log into your account portal, navigate to Settings > Billing, and click 'Cancel Subscription'. Follow the prompts until you receive a cancellation confirmation email. Note that cancellation halts automatic renewal, but your Premium access continues until your current billing term expires. There are no cancellation fees. If you downgrade, your account defaults back to the Free plan, and your saved workspaces will be locked to read-only mode.",
+      "category": "Account",
+      "tags": [
+        "cancel",
+        "subscription",
+        "billing",
+        "downgrade"
+      ],
+      "createdAt": "2026-06-05T00:00:00.000Z"
+    },
+    {
+      "id": "kb-3",
+      "title": "Tracking Orders and Shipping Speeds",
+      "content": "Once an order is shipped, we send an email containing your tracking number and carrier link (e.g., FedEx, UPS, or DHL). Standard Shipping takes 3 to 5 business days, while Express Shipping takes 1 to 2 business days. If your tracking states 'Delivered' but you cannot find the package: check surrounding areas, inquire with neighbors, and wait up to 24 hours as carriers sometimes mark items as delivered prematurely. If still missing, file a claim with our support within 7 days of the delivery timestamp.",
+      "category": "Orders",
+      "tags": [
+        "shipping",
+        "tracking",
+        "order status",
+        "fedex",
+        "ups"
+      ],
+      "createdAt": "2026-06-10T00:00:00.000Z"
+    },
+    {
+      "id": "kb-4",
+      "title": "Technical Support: Resetting Password and Login Errors",
+      "content": "If you encounter login errors, first ensure your Caps Lock is off and you are entering the correct registered email. To reset your password, click 'Forgot Password' on the login screen, enter your email address, and verify your inbox for a secure recovery link. This link expires in 30 minutes for security reasons. If you do not receive the email, search your spam or promotions folder, or contact security support. Common browser issues can be solved by clearing cookies and cache or testing in incognito mode.",
+      "category": "Technical Support",
+      "tags": [
+        "password",
+        "login",
+        "reset",
+        "troubleshoot",
+        "security"
+      ],
+      "createdAt": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "kb-5",
+      "title": "Billing Cycle, Invoices, and Payment Options",
+      "content": "Subscriptions are billed on a recurring basis, either monthly or annually, starting from the exact date you upgrade. Invoices are automatically generated and emailed to you at the start of each cycle. We accept all major credit cards (Visa, MasterCard, American Express, Discover), PayPal, and Google Pay. Card details can be updated securely in your billing panel. If a payment fails, our automatic system retries the charge after 3, 7, and 14 days. If payment fails on the final attempt, your subscription will be paused automatically.",
+      "category": "Billing",
+      "tags": [
+        "invoice",
+        "payment",
+        "credit card",
+        "billing cycle"
+      ],
+      "createdAt": "2026-06-20T00:00:00.000Z"
+    }
+  ],
+  "escalationLogs": [
+    {
+      "id": "e-1",
+      "ticketId": "t-1003",
+      "reason": "Severe negative customer sentiment ('angry') coupled with a refund demand for post-cancellation charge.",
+      "timestamp": "2026-07-17T13:33:56.518Z",
+      "severity": "critical"
+    },
+    {
+      "ticketId": "t-1017",
+      "reason": "Automated analysis flagged: intent='Complaint', sentiment='angry', justification: User is angry and explicitly requested to speak with a human agent.",
+      "severity": "critical",
+      "id": "e-1784382446962",
+      "timestamp": "2026-07-18T13:47:26.962Z"
+    },
+    {
+      "ticketId": "t-1018",
+      "reason": "Automated analysis flagged: intent='Account Issue', sentiment='angry', justification: Negative sentiment and hostile language regarding locked account access.",
+      "severity": "critical",
+      "id": "e-1784382664788",
+      "timestamp": "2026-07-18T13:51:04.788Z"
+    },
+    {
+      "ticketId": "t-1019",
+      "reason": "Automated analysis flagged: intent='General Question', sentiment='neutral', justification: Direct request to speak with a human agent.",
+      "severity": "high",
+      "id": "e-1784382668637",
+      "timestamp": "2026-07-18T13:51:08.637Z"
+    },
+    {
+      "ticketId": "t-1029",
+      "reason": "Automated flow flagged: intent='General Question', sentiment='neutral', escalationTriggered=false",
+      "severity": "high",
+      "id": "e-1784812156801",
+      "timestamp": "2026-07-23T13:09:16.801794Z"
+    },
+    {
+      "ticketId": "t-1030",
+      "reason": "Automated flow flagged: intent='General Question', sentiment='neutral', escalationTriggered=false",
+      "severity": "high",
+      "id": "e-1784812448424",
+      "timestamp": "2026-07-23T13:14:08.424506Z"
+    },
+    {
+      "ticketId": "t-1031",
+      "reason": "Automated flow flagged: intent='General Question', sentiment='neutral', escalationTriggered=false",
+      "severity": "high",
+      "id": "e-1784812469921",
+      "timestamp": "2026-07-23T13:14:29.921724Z"
+    }
+  ]
+}
