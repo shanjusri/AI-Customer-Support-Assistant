@@ -540,9 +540,9 @@ def export_tickets(response: Response):
         rating = "N/A" if rating_val is None else str(rating_val)
 
         # Escape double quotes by doubling them, and wrap in double quotes
-        name_esc = f'"{customer_name.replace(\'"\', \'""\')}"'
-        email_esc = f'"{customer_email.replace(\'"\', \'""\')}"'
-        title_esc = f'"{title.replace(\'"\', \'""\')}"'
+        name_esc = '"' + customer_name.replace('"', '""') + '"'
+email_esc = '"' + customer_email.replace('"', '""') + '"'
+title_esc = '"' + title.replace('"', '""') + '"'
 
         csv_lines.append(
             f"{t_id},{name_esc},{email_esc},{title_esc},{category},{priority},{status_val},{sentiment},{created_at},{rating}"
