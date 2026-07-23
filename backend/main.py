@@ -39,11 +39,14 @@ app = FastAPI(
 # Configure CORS to allow frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://ai-customer-support-assistant-xi.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+   
 
 # Include the main API router
 app.include_router(api_router, prefix="/api")
