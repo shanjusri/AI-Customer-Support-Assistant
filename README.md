@@ -3,13 +3,14 @@
 An AI-powered Customer Support Assistant built using React, FastAPI, Google Gemini AI, and RAG (Retrieval-Augmented Generation). It provides intelligent customer support, ticket management, sentiment analysis, and knowledge-based responses through a modern chat interface.
 
 🌐 **Live Demo:**  
-<https://ai-customer-support-assistant-xi.vercel.app>
+[Open Application](https://ai-customer-support-assistant-xi.vercel.app)
 
 ⚙️ **Backend API:**  
-<https://ai-customer-support-assistant-d4br.onrender.com>
+[Backend Server](https://ai-customer-support-assistant-d4br.onrender.com)
 
 📚 **API Documentation:**  
-<https://ai-customer-support-assistant-d4br.onrender.com/docs>
+[Swagger API Docs](https://ai-customer-support-assistant-d4br.onrender.com/docs)
+
 ---
 
 ## 🎯 Objectives
