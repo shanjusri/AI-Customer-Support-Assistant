@@ -55,6 +55,9 @@ The AI Customer Support Assistant offers the following features:
 - Deployed Backend on Render
 
 ---
+
+
+
 # 🏗️ Project Architecture
 
 
@@ -83,6 +86,11 @@ The AI Customer Support Assistant offers the following features:
 
 
 ---
+
+
+
+
+
 # 📁 Project Structure
 
 REMIX_AI_CUSTOMER_SUPPORT_ASSISTANT/
@@ -205,7 +213,6 @@ Once loaded, navigate your web browser to `http://localhost:3000`.
 To package the application for high-performance production hosting:
 
 1. **Compile & Bundle Assets**:
-   ```bash
    npm run build
    ```
    This generates compiled production static files in `/dist` and compiles the Node backend server into `/dist/server.cjs`.
