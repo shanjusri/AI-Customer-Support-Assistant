@@ -55,8 +55,6 @@ The AI Customer Support Assistant offers the following features:
 - Deployed Backend on Render
 
 ---
-## 🏛️ System Architecture
-
 # 🏗️ Project Architecture
 
 ```
@@ -77,6 +75,8 @@ The AI Customer Support Assistant offers the following features:
                            │
                            ▼
                   AI Response Generation
+
+
 
 ---
 
