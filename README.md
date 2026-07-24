@@ -57,7 +57,7 @@ The AI Customer Support Assistant offers the following features:
 ---
 # 🏗️ Project Architecture
 
-```
+
                     React Frontend
                            │
                            ▼
@@ -128,7 +128,7 @@ REMIX_AI_CUSTOMER_SUPPORT_ASSISTANT/
 ├── requirements.txt
 ├── tsconfig.json
 └── vite.config.ts
-```
+
 ---
 
 # 🛠️ Technology Stack
@@ -168,24 +168,19 @@ REMIX_AI_CUSTOMER_SUPPORT_ASSISTANT/
 - GitHub
 ---
 
-## ⚙️ Installation & Setup
+# ⚙️ Installation
 
-### Prerequisites
-- Node.js (v18.0.0 or higher recommended)
-- A valid Google Gemini API Key
+Clone repository
 
-### 1. Clone the Project & Install Dependencies
-Run the command below from the project root to install all required dependencies:
-```bash
-npm install
-```
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/AI-Customer-Support-Assistant.git
 
-### 2. Configure Environment Variables
-Create a `.env` file in the root directory (or update the provided `.env.example`):
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-NODE_ENV=development
-```
+Move into project
+
+cd AI-Customer-Support-Assistant
+
+Install requirements
+
+pip install -r requirements.txt
 
 ---
 
