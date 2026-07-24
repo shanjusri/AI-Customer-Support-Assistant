@@ -421,7 +421,9 @@ export function CustomerWorkspace({
   // Fetch tickets for registered user
   const fetchUserHistory = async (userEmail: string, keepActiveId?: string | null) => {
     try {
-      const response = await fetch(`/api/history?email=${encodeURIComponent(userEmail)}`);
+      const response = await fetch(
+  `https://ai-customer-support-assistant-d4br.onrender.com/api/history?email=${encodeURIComponent(userEmail)}`
+);
       if (response.ok) {
         const data = await response.json() as Ticket[];
         setTickets(data);
@@ -502,7 +504,9 @@ export function CustomerWorkspace({
         
         // Fetch history and start with a completely NEW CHAT (setActiveTicket(null))
         try {
-          const histRes = await fetch(`/api/history?email=${encodeURIComponent(data.user.email)}`);
+          const histRes = await fetch(
+  `https://ai-customer-support-assistant-d4br.onrender.com/api/history?email=${encodeURIComponent(data.user.email)}`
+);
           if (histRes.ok) {
             const histData = await histRes.json() as Ticket[];
             setTickets(histData);
@@ -760,7 +764,7 @@ export function CustomerWorkspace({
 
   const handleRateTicket = async (ticketId: string, ratingValue: number) => {
     try {
-      const response = await fetch(`/api/ticket/${ticketId}`, {
+      const response = await fetch(`https://ai-customer-support-assistant-d4br.onrender.com/api/ticket/${ticketId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ rating: ratingValue, status: "resolved" })
@@ -781,7 +785,7 @@ export function CustomerWorkspace({
 
     setIsSavingRename(true);
     try {
-      const response = await fetch(`/api/ticket/${showRenameModal.id}`, {
+      const response = await fetch(`https://ai-customer-support-assistant-d4br.onrender.com/api/ticket/${showRenameModal.id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ title: renameTitle.trim() })
@@ -805,7 +809,7 @@ export function CustomerWorkspace({
 
     setIsDeleting(true);
     try {
-      const response = await fetch(`/api/ticket/${showDeleteConfirm.id}`, {
+      const response = await fetch(`https://ai-customer-support-assistant-d4br.onrender.com/api/ticket/${showDeleteConfirm.id}`, {
         method: "DELETE"
       });
       if (response.ok) {
