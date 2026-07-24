@@ -78,6 +78,10 @@ The AI Customer Support Assistant offers the following features:
 
 
 
+
+
+
+
 ---
 # 📁 Project Structure
 
@@ -128,6 +132,10 @@ REMIX_AI_CUSTOMER_SUPPORT_ASSISTANT/
 ├── requirements.txt
 ├── tsconfig.json
 └── vite.config.ts
+
+
+
+
 
 ---
 
