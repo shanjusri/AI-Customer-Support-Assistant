@@ -33,38 +33,28 @@ It improves customer experience by delivering quick, accurate, and context-aware
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-### 👤 Customer Workspace
-- **Intelligent Multilingual Chatbot**: Direct chat with an AI assistant that dynamically adapts to conversational tone and maintains contextual memory.
-- **Regional Translation**: One-click switching or automated language recognition for:
-  - English (`en`)
-  - Hindi (`hi` - हिंदी)
-  - Telugu (`te` - తెలుగు)
-  - Tamil (`ta` - தமிழ்)
-  - Kannada (`kn` - ಕನ್ನಡ)
-  - Malayalam (`ml` - മലയാളം)
-- **Document & Image Attachment Preview**: Upload mock invoices, screenshots, or receipts. The server-side Gemini multi-modal engine reads, parses, and resolves issues directly from image details.
-- **Account Registration & Multi-Ticket Logs**: Users can log in, view historical support inquiries, and check active ticket resolutions.
+The AI Customer Support Assistant offers the following features:
 
-### 👮 Agent Command Desk (Admin)
-- **Real-Time Operational Analytics**: Comprehensive telemetry displaying:
-  - Ticket priority distribution (low, medium, high, urgent).
-  - Customer sentiment distribution metrics.
-  - Interactive charts tracking daily volume and resolution metrics.
-  - Performance SLA averages (average response times and satisfaction ratings).
-- **Interactive Support Queue**: View, sort, delete, and filter active issues by status (`open`, `escalated`, `resolved`).
-- **Manual Ticket Assignment & Title Customization**: Allows managers to delegate tickets to specific agents, update priority, and re-title items.
-- **Direct Reply Interface**: Agents can override AI actions by sending manual replies directly into the customer's chat thread.
-- **Knowledge Base (KB) Hot-Swapping**: View current official support articles. Create or delete articles on the fly. The system automatically updates the semantic RAG index instantly!
-- **Data Export**: Single-click export of all system ticket records to a clean CSV file.
-
-### 🛡️ Dual-Stage Enterprise Guardrails
-- **Input Sanitization**: Filters out empty sequences, repetitive spam patterns, explicit profanity, and prompt injection/jailbreak keywords.
-- **Response Grounding Checker**: Audits AI outputs. If a generated answer lacks substantial overlap with retrieved articles or triggers fallback phrases, the system intercepts the message and falls back to a warm, human-escalation offer.
+- User Registration & Secure Login
+- AI-Powered Customer Support Chat
+- Retrieval-Augmented Generation (RAG) for Knowledge-Based Responses
+- Intelligent FAQ Retrieval and Answer Generation
+- Automatic Ticket Classification
+- Ticket Creation, Tracking & Management
+- Sentiment Analysis for Customer Messages
+- Human Support Escalation for Complex Queries
+- Conversation History Management
+- Admin Dashboard for Monitoring & Management
+- FastAPI RESTful Backend APIs
+- Responsive & User-Friendly Interface
+- Real-Time AI Response Generation
+- Secure Authentication & Session Management
+- Deployed Frontend on Vercel
+- Deployed Backend on Render
 
 ---
-
 ## 🏛️ System Architecture
 
 SupportSuite uses a modern, layered, decoupled client-server architecture:
