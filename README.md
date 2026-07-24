@@ -79,40 +79,56 @@ The AI Customer Support Assistant offers the following features:
 
 
 ---
+# 📁 Project Structure
 
-## 📂 Folder Structure
-
-The project strictly follows the required clean-folder paradigm separating logic, data structures, and assets:
-
-```
-project/
-├── backend/            # Express web server, routing, & bootstrapping
-│   ├── api.ts          # REST endpoints (auth, chat, ticketing, KB, analytics)
-│   └── server.ts       # Express bootstrap, middlewares, & static build mount
-├── frontend/           # React SPA client application
+REMIX_AI_CUSTOMER_SUPPORT_ASSISTANT/
+│
+├── analytics/
+│   └── analytics.py
+│
+├── assets/
+│
+├── backend/
+│   ├── api.py
+│   ├── main.py
+│   └── server.ts
+│
+├── chatbot/
+│   └── gemini.py
+│
+├── frontend/
 │   └── src/
-│       ├── components/ # Split workspaces (CustomerWorkspace, AdminWorkspace)
-│       ├── App.tsx     # Unified entry router and header layout
-│       ├── index.css   # Typography configurations & custom Tailwind styling
-│       ├── main.tsx    # React StrictMode bootstrap
-│       └── types.ts    # Centralized static TypeScript model declarations
-├── chatbot/            # Gemini AI service layer
-│   └── gemini.ts       # Gemini SDK API wrappers for chat, embedding, and translation
-├── retrieval/          # Semantic Retrieval-Augmented Generation (RAG)
-│   └── rag.py          # Chunking utilities, cosine similarity vector index, & verification
-├── prompts/            # Centralized system instructions
-│   └── prompts.py      # Strictly structured prompt templates for LLMs
-├── validators/         # Input/Output Guardrails
-│   └── validators.py   # Profanity, spam, injection, and grounding validation checks
-├── tickets/            # Local Transactional Storage
-│   └── db.ts           # Read/write adapter managing mock db.json models
-├── analytics/          # Business Intelligence Metrics
-│   └── analytics.py    # Compiles statistics, counts, SLA metrics, and trends
-├── tests/              # Verification & Quality Assurance
-│   └── placeholder.test.ts # TS-native tests for validation compliance
-└── README.md           # Unified system documentation
+│       ├── components/
+│       │   ├── AdminWorkspace.tsx
+│       │   ├── CustomerWorkspace.tsx
+│       │   └── ...
+│       ├── App.tsx
+│       ├── index.css
+│       ├── main.tsx
+│       └── types.ts
+│
+├── prompts/
+│
+├── retrieval/
+│
+├── tests/
+│
+├── tickets/
+│
+├── validators/
+│
+├── .env.example
+├── .gitignore
+├── bun.lock
+├── db.json
+├── index.html
+├── metadata.json
+├── package.json
+├── README.md
+├── requirements.txt
+├── tsconfig.json
+└── vite.config.ts
 ```
-
 ---
 
 # 🛠️ Technology Stack
