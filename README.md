@@ -13,15 +13,23 @@ An AI-powered Customer Support Assistant built using React, FastAPI, Google Gemi
 
 ---
 
-## 🎯 Objectives
+# 📖 Project Overview
 
-The core objectives of the SupportSuite project are:
-- **Instant Resolution**: Deliver fast, accurate, and contextually grounded answers to common customer inquiries using Gemini AI coupled with a local semantic knowledge base (RAG).
-- **Automated Triage**: Classify customer intent, evaluate emotional sentiment, prioritize urgency, and route tickets with zero manual effort.
-- **Safety First**: Intercept and filter malicious inputs (toxic speech, spam, prompt injection attacks) and audit generated responses for grounding to prevent hallucinations.
-- **Inclusion & Accessibility**: Support customer interactions in multiple regional Indian languages with natural, context-aware translations.
-- **Seamless Human Escalation**: Facilitate smooth transitions from automated AI help to human coordinator management when complex or negative sentiment indicators are detected.
-- **Operational Intelligence**: Empower support leads with real-time dashboards to analyze ticket volume, agent performance, customer satisfaction ratings, and customer sentiment distribution.
+The AI Customer Support Assistant is a web application designed to provide intelligent, fast, and reliable customer support using Artificial Intelligence. It helps customers resolve their queries through an interactive chat interface while assisting support teams with ticket management and knowledge-based responses.
+
+The application provides:
+
+- AI-powered Customer Support Chat
+- User Registration & Secure Login
+- Knowledge Base (RAG) Retrieval
+- Intelligent FAQ Responses
+- Ticket Creation & Management
+- Sentiment Analysis
+- Admin Dashboard
+- Conversation History
+- Human Support Escalation
+
+It improves customer experience by delivering quick, accurate, and context-aware responses while reducing manual support effort through AI-powered automation.
 
 ---
 
