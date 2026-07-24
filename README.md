@@ -57,38 +57,26 @@ The AI Customer Support Assistant offers the following features:
 ---
 ## 🏛️ System Architecture
 
-SupportSuite uses a modern, layered, decoupled client-server architecture:
+# 🏗️ Project Architecture
 
 ```
-┌────────────────────────────────────────────────────────┐
-│                   Customer / Agent Client               │
-│               (React 19 / Tailwind / Recharts)         │
-└───────────────────────────┬────────────────────────────┘
-                            │  HTTPS JSON APIs
-                            ▼
-┌────────────────────────────────────────────────────────┐
-│                 Express Backend Router                 │
-│                      (Node.js)                         │
-└──────┬──────────────────────────────────────────┬──────┘
-       │                                          │
-       ▼                                          ▼
-┌──────────────────────────────┐          ┌──────────────────────────────┐
-│       AI Chat Engine         │          │     Transactional DB         │
-│  (Gemini-3.1-Flash-Lite)     │          │         (db.json)            │
-└──────┬───────────────────────┘          └──────────────────────────────┘
-       │
-       ▼ RAG Semantic Index
-┌──────────────────────────────┐
-│      RAG Service Layer       │
-│ (Gemini-Embedding-2-Preview) │
-└──────────────────────────────┘
-```
-
-1. **Client Layer**: A highly responsive Single Page Application built with React and styled with Tailwind CSS. It communicates asynchronously with the backend server via JSON REST endpoints.
-2. **Server/API Layer**: An Express.js application serving routes for user authentication, RAG searches, chat generation, ticket management, and analytics metrics.
-3. **Retrieval Layer (RAG)**: At boot-up, the RAG service extracts text from all active knowledge base articles, chunks them, and generates high-dimensional vectors. User queries are compared against these vectors using Cosine Similarity, selecting candidates for the AI's grounding context.
-4. **LLM/AI Service Layer**: Calls the official Google Gen AI SDK to perform multi-modal generation, real-time sentiment analysis, ticket triage classification, and localized translation.
-5. **Database Layer**: A local, persistent transactional store maintaining record states for users, active tickets, and operational escalation logs.
+                    React Frontend
+                           │
+                           ▼
+                  FastAPI Backend
+                           │
+      ┌────────────────────┼────────────────────┐
+      ▼                    ▼                    ▼
+ Authentication      RAG Retrieval        Ticket System
+      │                    │                    │
+      ▼                    ▼                    ▼
+ User Database     Knowledge Base      Ticket Database
+                           │
+                           ▼
+                  Google Gemini AI
+                           │
+                           ▼
+                  AI Response Generation
 
 ---
 
