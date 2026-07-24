@@ -127,26 +127,41 @@ project/
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technology Stack
 
-### Frontend (Client-Side)
-- **React 19**: Modern declarative UI library.
-- **Tailwind CSS v4**: Ultra-fast utility-first styling for layout grid, typography, spacing, and SaaS themes.
-- **Lucide Icons**: Elegant, lightweight iconography.
-- **Recharts**: Modular D3-based interactive charting library for dashboard telemetry.
-- **Motion (Framer)**: Smooth components entrance transitions and status changes.
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- HTML5
+- CSS3
 
-### Backend (Server-Side)
-- **Node.js**: Asynchronous event-driven JavaScript runtime environment.
-- **Express.js**: Fast, minimalist web framework for building server API endpoints.
-- **tsx**: TypeScript-native execute utility for streamlined dev workflows.
-- **esbuild**: High-performance bundler used to compile backend TS server files into clean CommonJS chunks.
+### Backend
+- FastAPI
+- Python
+- Uvicorn
 
-### AI Integration
-- **Google Gen AI SDK (`@google/genai`)**: Modern, official SDK used for LLM operations.
-- **gemini-3.1-flash-lite**: Chosen model for lightning-fast structured classification, intent evaluations, and text completions.
-- **gemini-embedding-2-preview**: Cutting-edge embedding model for dense 768-dimension semantic vector mapping.
+### Artificial Intelligence
+- Google Gemini AI
+- Retrieval-Augmented Generation (RAG)
+- Vector Embeddings
+- Semantic Search
 
+### Database
+- PostgreSQL
+
+### Authentication
+- Email & Password Authentication
+- JWT (JSON Web Tokens)
+
+### Deployment
+- Vercel (Frontend)
+- Render (Backend)
+
+### Version Control
+- Git
+- GitHub
 ---
 
 ## ⚙️ Installation & Setup
