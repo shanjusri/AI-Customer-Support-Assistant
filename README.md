@@ -1,9 +1,15 @@
-# SupportSuite: AI Customer Support Assistant
+# 🤖 AI Customer Support Assistant
 
-SupportSuite is an enterprise-grade, full-stack customer support platform that blends real-time generative AI intelligence with robust transactional ticket management. It leverages state-of-the-art Large Language Models (LLMs) and semantic search (Retrieval-Augmented Generation) to classify incoming customer inquiries, assess sentiment, generate highly grounded and compliant answers, translate responses into regional Indian languages, and provide automated escalation guardrails. 
+An AI-powered Customer Support Assistant built using React, FastAPI, Google Gemini AI, and RAG (Retrieval-Augmented Generation). It provides intelligent customer support, ticket management, sentiment analysis, and knowledge-based responses through a modern chat interface.
 
-Through its modular, split-workspace architecture, SupportSuite serves both customers seeking instantaneous, accurate answers and support agents orchestrating tickets, monitoring real-time operational analytics, and hot-swapping company knowledge base entries.
+🌐 **Live Demo:**  
+https://ai-customer-support-assistant-xi.vercel.app
 
+⚙️ **Backend API:**  
+https://ai-customer-support-assistant-d4br.onrender.com
+
+📚 **API Documentation:**  
+https://ai-customer-support-assistant-d4br.onrender.com/docs
 ---
 
 ## 🎯 Objectives
